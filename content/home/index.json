@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "headline": "El Estándar de Oro en Nutrición Ancestral.",
+    "subheadline": "Caldo de huesos premium de cocción lenta. Máxima concentración de colágeno, gelatina y aminoácidos esenciales para reparación celular, salud articular y soporte digestivo. Sin atajos. Sin aditivos."
+  },
+  "technical": {
+    "heading": "La Ciencia detrás de la Tradición",
+    "body1": "El verdadero caldo de huesos no es una sopa. Es un extracto nutricional denso que requiere más de 16 horas de cocción a fuego lento. Durante este proceso meticuloso, el colágeno presente en el tejido conectivo y los cartílagos se descompone en gelatina biodisponible y aminoácidos esenciales como la glicina, prolina y glutamina.",
+    "body2": "Esta matriz de nutrientes es fundamental para reconstruir la barrera intestinal, estimular la síntesis de colágeno en tendones y piel, y apoyar la recuperación muscular post-entrenamiento. En BRODE, utilizamos exclusivamente huesos de pastura y filtrado riguroso para asegurar la máxima pureza."
+  },
+  "productos": {
+    "heading": "Nuestros Caldos",
+    "items": [
+      {
+        "name": "Res de Pastura",
+        "description": "Perfil de aminoácidos denso. Rico en colágeno tipo I y III, ideal para la elasticidad de la piel, la salud ósea y la reconstrucción celular.",
+        "details": "Cocción de 16h · Huesos de pastura · Sin conservantes"
+      },
+      {
+        "name": "Pollo de Campo",
+        "description": "Alto contenido de colágeno tipo II y glicosaminoglicanos. El soporte perfecto para las articulaciones, el cartílago y la recuperación intestinal.",
+        "details": "Cocción de 16h · Carcasas de campo · Fuente natural de minerales"
+      }
+    ]
+  },
+  "porQue": {
+    "heading": "Rendimiento y Recuperación",
+    "features": [
+      {
+        "title": "Alta Biodisponibilidad",
+        "description": "Nutrientes en su forma más asimilable. Absorción directa para la reparación de tejidos musculares y articulares."
+      },
+      {
+        "title": "Salud Digestiva",
+        "description": "La gelatina natural y la L-glutamina ayudan a sellar la mucosa intestinal, mejorando la digestión y la inmunidad."
+      },
+      {
+        "title": "Protocolos Clean Label",
+        "description": "Cero estabilizantes, conservantes o colorantes. Si no estaba en la dieta humana hace 10,000 años, no está en BRODE."
+      },
+      {
+        "title": "Soporte Metabólico",
+        "description": "Bajo en carbohidratos, alto en proteínas y compatible con dietas cetogénicas (Keto), Paleo y Ayuno Intermitente."
+      }
+    ]
+  },
+  "ritual": {
+    "heading": "Optimiza tu Rutina",
+    "body": "Consumido en ayunas para sellar el intestino, post-entrenamiento para apoyar la síntesis de colágeno, o antes de dormir para aprovechar el efecto calmante de la glicina en el sistema nervioso."
+  },
+  "contacto": {
+    "heading": "Hablemos"
+  }
+}

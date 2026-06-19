@@ -1,0 +1,144 @@
+{
+  "heading": "El Poder de la Gelatina y los Aminoácidos",
+  "intro": "Cada taza de BRODE es una infusión concentrada de proteínas estructurales y minerales esenciales. Desglosamos la ciencia detrás de los beneficios.",
+  "properties": [
+    {
+      "title": "Colágeno y Tejido Conectivo",
+      "slug": "colageno",
+      "description": "Aporta los bloques de construcción (Glicina, Prolina e Hidroxiprolina) necesarios para la síntesis endógena de colágeno, crucial para la elasticidad de tendones, ligamentos y fascias.",
+      "image": "beef-bones.png",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "El colágeno tipo I y III extraído a través de la cocción prolongada proporciona los aminoácidos exactos necesarios para reparar el tejido conectivo humano. A diferencia de los suplementos hidrolizados comerciales, la gelatina natural del caldo de huesos incluye cofactores enzimáticos que maximizan su absorción y síntesis endógena. Consumirlo de forma regular mejora notablemente la elasticidad de la piel, fortalece las fascias musculares y acelera la recuperación de microdesgarros en tendones y ligamentos."
+              }
+            ]
+          }
+        ]
+      },
+      "references": [
+        { "citation": "Shaw, G., et al. (2017). Vitamin C‑enriched gelatin supplementation before intermittent activity augments collagen synthesis." }
+      ]
+    },
+    {
+      "title": "Microbioma y Barrera Intestinal",
+      "slug": "microbioma",
+      "description": "La gelatina actúa como un coloide hidrofílico que atrae jugos gástricos, mientras que la L‑Glutamina nutre los enterocitos, ayudando a reparar la permeabilidad intestinal (Leaky Gut).",
+      "image": "carrot.png",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "El intestino es la primera línea de defensa del sistema inmunológico. Factores como el estrés, los alimentos ultraprocesados y los antinutrientes pueden dañar las uniones estrechas del epitelio intestinal, causando hiperpermeabilidad (Leaky Gut). La gelatina del caldo de huesos actúa como un coloide protector que atrae fluidos digestivos, facilitando la digestión. A su vez, su alto contenido en L‑Glutamina nutre directamente a los enterocitos, ayudando a sellar la barrera intestinal y reducir la inflamación sistémica."
+              }
+            ]
+          }
+        ]
+      },
+      "references": [
+        { "citation": "Rapin, J. R., & Wiernsperger, N. (2010). Possible links between intestinal permeability and food processing: A potential niche for glutamine." }
+      ]
+    },
+    {
+      "title": "Recuperación Articular",
+      "slug": "articulaciones",
+      "description": "Fuente natural de Glicosaminoglicanos (GAGs) como la glucosamina y condroitina, junto con colágeno Tipo II (en el caldo de pollo), que protegen el cartílago y modulan la inflamación.",
+      "image": "chicken-cuts.png",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "El desgaste articular y la osteoartritis están vinculados a la pérdida de la matriz extracelular en el cartílago. Nuestro caldo, especialmente el elaborado con carcasas de pollo, es una fuente natural y biodisponible de Glicosaminoglicanos (GAGs), incluyendo sulfato de condroitina, glucosamina y ácido hialurónico. Estos compuestos son esenciales para mantener la lubricación de las articulaciones (líquido sinovial) y reducir el dolor articular inducido por el impacto en atletas de alto rendimiento o por la inflamación crónica."
+              }
+            ]
+          }
+        ]
+      },
+      "references": [
+        { "citation": "Bello, A. E., & Oesser, S. (2006). Collagen hydrolysate for the treatment of osteoarthritis and other joint disorders." }
+      ]
+    },
+    {
+      "title": "Regulación del Sistema Nervioso",
+      "slug": "sistema-nervioso",
+      "description": "La alta concentración de Glicina actúa como un neurotransmisor inhibidor en el sistema nervioso central, promoviendo la relajación, reduciendo el cortisol y mejorando la calidad del sueño profundo.",
+      "image": "onion.png",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "El caldo de huesos es una de las fuentes alimentarias más ricas en glicina. Este aminoácido actúa como un potente neurotransmisor inhibidor en el sistema nervioso central, contrarrestando los efectos excitatorios. Su consumo antes de dormir ayuda a bajar la temperatura corporal central, reduce los niveles de cortisol y promueve una transición más rápida hacia la fase de sueño profundo (REM). Además, apoya la síntesis de glutatión, el antioxidante maestro del cuerpo, protegiendo al cerebro del estrés oxidativo."
+              }
+            ]
+          }
+        ]
+      },
+      "references": [
+        { "citation": "Bannai, M., & Kawai, N. (2012). New therapeutic strategy for amino acid medicine: glycine improves the quality of sleep." }
+      ]
+    },
+    {
+      "title": "Densidad Mineral Ósea",
+      "slug": "densidad-mineral",
+      "description": "La cocción prolongada en presencia de vinagre de sidra de manzana extrae calcio, fósforo y magnesio directamente de la matriz ósea en una forma iónica altamente biodisponible.",
+      "image": "beef-bones.png",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "La cocción ultra‑lenta (más de 16 h) combinada con un medio ligeramente ácido (vinagre de manzana) permite desmineralizar suavemente los huesos de pastura. Esto libera calcio, fósforo, magnesio y oligoelementos directamente en el caldo. A diferencia de los suplementos minerales aislados, estos nutrientes se presentan en una matriz orgánica junto a los aminoácidos y lípidos, lo que garantiza una absorción iónica óptima. Esto es fundamental para revertir procesos de osteopenia y apoyar la recalcificación de los huesos."
+              }
+            ]
+          }
+        ]
+      },
+      "references": [
+        { "citation": "McCance, R. A., et al. (1934). The bone and vegetable broth in the diet of infants." }
+      ]
+    },
+    {
+      "title": "Performance y Ayuno",
+      "slug": "performance",
+      "description": "Ideal para romper ayunos prolongados sin generar picos de insulina. Su perfil de aminoácidos preserva la masa magra (muscle sparing) durante la restricción calórica en protocolos Keto y Paleo.",
+      "image": "meat-zoom.png",
+      "content": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "El caldo de huesos es la herramienta perfecta para sostener ayunos prolongados. Al no contener carbohidratos, no genera una respuesta glucémica ni eleva la insulina, manteniendo al cuerpo en estado de cetosis y autofagia. Su aporte de electrolitos previene la ‘gripe keto’ y la deshidratación intracelular, mientras que sus aminoácidos esenciales previenen el catabolismo muscular (muscle sparing) durante la restricción calórica. Es el combustible ideal para optimizar el rendimiento metabólico."
+              }
+            ]
+          }
+        ]
+      },
+      "references": [
+        { "citation": "Longland, T. M., et al. (2016). Higher compared with lower dietary protein during an energy deficit combined with intense exercise promotes greater lean mass gain." }
+      ]
+    }
+  ]
+}

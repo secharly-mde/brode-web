@@ -1,0 +1,61 @@
+{
+  "heading": "Ingredientes reales",
+  "intro": "Nada que no reconozcas. Nada que no puedas pronunciar.",
+  "ingredientsTitle": "Nuestros ingredientes",
+  "ingredientsList": [
+    {
+      "name": "Huesos de res de pastura",
+      "description": "La base del colágeno, gelatina y minerales como calcio y magnesio. Utilizamos cortes seleccionados (caña, rodilla, ossobuco).",
+      "image": "/beef-bones.png"
+    },
+    {
+      "name": "Carcasas de pollo de campo",
+      "description": "Ricas en colágeno tipo II y glucosamina, ideales para el cuidado articular y con un sabor reconfortante.",
+      "image": "/chicken-cuts.png"
+    },
+    {
+      "name": "Agua filtrada",
+      "description": "Esencial para extraer lentamente los nutrientes sin aportar impurezas al caldo.",
+      "image": "/water.png"
+    },
+    {
+      "name": "Cebolla",
+      "description": "Rica en antioxidantes, aporta un sabor base profundo y propiedades antiinflamatorias.",
+      "image": "/onion.png"
+    },
+    {
+      "name": "Zanahoria",
+      "description": "Aporta un toque de dulzor natural y betacarotenos beneficiosos para el sistema inmune.",
+      "image": "/carrot.png"
+    },
+    {
+      "name": "Apio",
+      "description": "Ayuda a mantener el equilibrio de líquidos y aporta notas herbáceas al caldo.",
+      "image": "/celery.png"
+    },
+    {
+      "name": "Ajo",
+      "description": "Conocido por sus propiedades antimicrobianas, añade complejidad y sabor.",
+      "image": "/garlic.png"
+    },
+    {
+      "name": "Perejil y Laurel",
+      "description": "Hierbas aromáticas que enriquecen el perfil de sabor durante la cocción lenta aportando frescura.",
+      "image": "/parsley.png"
+    },
+    {
+      "name": "Vinagre de manzana",
+      "description": "Fundamental en pequeñas cantidades para ayudar a desmineralizar los huesos y maximizar la extracción de colágeno. Su uso es técnico y no se percibe en el sabor final.",
+      "image": "/vinegar.png"
+    },
+    {
+      "name": "Sal",
+      "description": "Agregamos una pizca de sal de alta calidad como fuente esencial de electrolitos y para potenciar los sabores naturales.",
+      "image": "/salt.png"
+    }
+  ],
+  "timeSection": {
+    "title": "El Ingrediente Invisible: El Tiempo",
+    "description": "En BRODE, el tiempo no es una métrica, es nuestro ingrediente más fundamental. Mientras la industria moderna busca acelerar procesos, nosotros nos detenemos. Cada lote de nuestro caldo requiere un mínimo de 16 horas de cocción a fuego lento. Es este prolongado proceso térmico el que logra romper las estructuras complejas del tejido conectivo, transformando el colágeno resistente en gelatina altamente biodisponible y liberando cada aminoácido esencial. Sin atajos, sin prisas. El verdadero poder nutricional exige paciencia."
+  }
+}

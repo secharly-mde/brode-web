@@ -1,0 +1,83 @@
+fragment HomeParts on Home {
+  __typename
+  hero {
+    __typename
+    headline
+    subheadline
+  }
+  technical {
+    __typename
+    heading
+    body1
+    body2
+  }
+  productos {
+    __typename
+    heading
+    items {
+      __typename
+      name
+      description
+      details
+    }
+  }
+  porQue {
+    __typename
+    heading
+    features {
+      __typename
+      title
+      description
+    }
+  }
+  ritual {
+    __typename
+    heading
+    body
+  }
+  contacto {
+    __typename
+    heading
+  }
+}
+
+fragment IngredientesParts on Ingredientes {
+  __typename
+  heading
+  intro
+  ingredientsTitle
+  ingredientsList {
+    __typename
+    image
+    name
+    description
+  }
+}
+
+fragment PropiedadesParts on Propiedades {
+  __typename
+  heading
+  intro
+  properties {
+    __typename
+    title
+    slug
+    description
+    image
+    content
+    references {
+      __typename
+      citation
+    }
+  }
+}
+
+fragment ShopParts on Shop {
+  __typename
+  heading
+  body
+  ctaText
+  secondaryText
+  minimumOrder
+  note
+}
