@@ -11,7 +11,7 @@ export default function Home() {
         {/* Background Image - Full height and width, dark overlay for contrast */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/hero-bg.png"
+            src="/hero-bg-hd.png"
             alt="BRODE - Nutrición Ancestral"
             fill
             className="object-cover object-center"
