@@ -81,7 +81,7 @@ export default function Home() {
       {/* ─── Image Break (Full width) ─── */}
       <div className="w-full h-[60vh] relative">
         <Image
-          src="/divider-bg.png"
+          src="/divider-bg-hd.png"
           alt="Ingredientes BRODE"
           fill
           className="object-cover"

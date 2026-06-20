@@ -90,7 +90,7 @@ export default function PropiedadesPage() {
             <div className="hidden lg:block animate-fade-in">
               <div className="relative aspect-[4/5] w-full rounded-2xl overflow-hidden shadow-2xl border border-cream/10">
                 <Image
-                  src="/science-broth.png"
+                  src="/propiedades-science.png"
                   alt="Investigación científica y colágeno"
                   fill
                   className="object-cover opacity-80"
