@@ -36,11 +36,9 @@ export default function Header() {
         {/* Logo */}
         <Link
           href="/"
-          className={`font-serif text-2xl md:text-3xl font-semibold tracking-tight transition-colors duration-300 ${
-            (isScrolled || !isHomePage) ? "text-deep-brown hover:text-saddle-brown" : "text-cream hover:text-warm-tan"
-          }`}
+          className="font-sans text-3xl md:text-4xl font-black tracking-tight text-[#B8935A] hover:opacity-80 flex items-start"
         >
-          BRODE<sup className="text-xs font-normal align-super">®</sup>
+          BRODE<span className="text-sm font-bold ml-0.5 mt-1">®</span>
         </Link>
 
         {/* Desktop Nav */}
