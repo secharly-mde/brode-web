@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
+import NutritionGrid from "@/components/NutritionGrid";
 import homeData from "../../content/home/index.json";
 
 export default function Home() {
@@ -76,39 +77,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Nutritional Profile Block */}
-          <div className="bg-white rounded-3xl p-10 md:p-14 shadow-xl shadow-saddle-brown/5 border border-saddle-brown/10">
-            <div className="text-center mb-10">
-              <h3 className="text-2xl font-serif text-deep-brown">Perfil Nutricional de Referencia</h3>
-              <p className="text-sm uppercase tracking-widest font-bold text-deep-brown/50 mt-2">Porción promedio de 240ml</p>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-6">
-              <div className="flex flex-col items-center text-center">
-                <span className="text-5xl font-serif text-saddle-brown mb-2">45</span>
-                <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Calorías</span>
-                <span className="text-sm font-light text-deep-brown/50 mt-1">Súper bajo</span>
-              </div>
-              <div className="flex flex-col items-center text-center md:border-l border-saddle-brown/10">
-                <span className="text-5xl font-serif text-saddle-brown mb-2">10<span className="text-2xl">g</span></span>
-                <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Proteína</span>
-                <span className="text-sm font-light text-deep-brown/50 mt-1">Colágeno y aminos</span>
-              </div>
-              <div className="flex flex-col items-center text-center md:border-l border-saddle-brown/10">
-                <span className="text-5xl font-serif text-saddle-brown mb-2">0<span className="text-2xl">g</span></span>
-                <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Carbohidratos</span>
-                <span className="text-sm font-light text-deep-brown/50 mt-1">Keto friendly</span>
-              </div>
-              <div className="flex flex-col items-center text-center md:border-l border-saddle-brown/10">
-                <span className="text-5xl font-serif text-saddle-brown mb-2">0<span className="text-2xl">g</span></span>
-                <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Grasas</span>
-                <span className="text-sm font-light text-deep-brown/50 mt-1">Desgrasado en frío</span>
-              </div>
-            </div>
-            <div className="mt-10 flex justify-center items-center gap-3 text-sm text-deep-brown/60 italic font-light text-center">
-              <div className="w-1.5 h-1.5 rounded-full bg-saddle-brown/40 hidden md:block" />
-              Alto contenido natural de electrolitos: Sodio, Potasio y Magnesio.
-            </div>
-          </div>
+          {/* Nutritional Profile Block (Animated) */}
+          <NutritionGrid />
         </div>
       </section>
 
