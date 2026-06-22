@@ -58,7 +58,7 @@ export default function Home() {
       {/* ─── La Ciencia Section (Editorial Layout) ─── */}
       <section id="ciencia" className="section-padding bg-cream text-deep-brown">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center mb-24">
             <div className="lg:col-span-5">
               <span className="text-saddle-brown text-sm uppercase tracking-widest font-bold mb-4 block">Fisiología Aplicada</span>
               <h2 className="text-4xl md:text-h2 font-serif leading-tight">
@@ -73,34 +73,40 @@ export default function Home() {
               <p className="text-lg text-deep-brown/70 leading-relaxed">
                 {homeData.technical.body2}
               </p>
-              
-              {/* Nutritional Profile Grid */}
-              <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 border-t border-saddle-brown/10 pt-10">
-                <div className="flex flex-col">
-                  <span className="text-4xl font-serif text-saddle-brown mb-1">45</span>
-                  <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Calorías</span>
-                  <span className="text-sm font-light text-deep-brown/50 mt-1">Súper bajo</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-4xl font-serif text-saddle-brown mb-1">10<span className="text-2xl">g</span></span>
-                  <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Proteína</span>
-                  <span className="text-sm font-light text-deep-brown/50 mt-1">Colágeno y aminos</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-4xl font-serif text-saddle-brown mb-1">0<span className="text-2xl">g</span></span>
-                  <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Carbohidratos</span>
-                  <span className="text-sm font-light text-deep-brown/50 mt-1">Keto friendly</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-4xl font-serif text-saddle-brown mb-1">0<span className="text-2xl">g</span></span>
-                  <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Grasas</span>
-                  <span className="text-sm font-light text-deep-brown/50 mt-1">Desgrasado en frío</span>
-                </div>
+            </div>
+          </div>
+
+          {/* Nutritional Profile Block */}
+          <div className="bg-white rounded-3xl p-10 md:p-14 shadow-xl shadow-saddle-brown/5 border border-saddle-brown/10">
+            <div className="text-center mb-10">
+              <h3 className="text-2xl font-serif text-deep-brown">Perfil Nutricional de Referencia</h3>
+              <p className="text-sm uppercase tracking-widest font-bold text-deep-brown/50 mt-2">Porción promedio de 240ml</p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-6">
+              <div className="flex flex-col items-center text-center">
+                <span className="text-5xl font-serif text-saddle-brown mb-2">45</span>
+                <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Calorías</span>
+                <span className="text-sm font-light text-deep-brown/50 mt-1">Súper bajo</span>
               </div>
-              <div className="mt-4 flex items-center gap-3 text-sm text-deep-brown/60 italic font-light">
-                <div className="w-1.5 h-1.5 rounded-full bg-saddle-brown/40" />
-                Valores promedio por porción (240ml). Rico en Sodio, Potasio y Magnesio naturales.
+              <div className="flex flex-col items-center text-center md:border-l border-saddle-brown/10">
+                <span className="text-5xl font-serif text-saddle-brown mb-2">10<span className="text-2xl">g</span></span>
+                <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Proteína</span>
+                <span className="text-sm font-light text-deep-brown/50 mt-1">Colágeno y aminos</span>
               </div>
+              <div className="flex flex-col items-center text-center md:border-l border-saddle-brown/10">
+                <span className="text-5xl font-serif text-saddle-brown mb-2">0<span className="text-2xl">g</span></span>
+                <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Carbohidratos</span>
+                <span className="text-sm font-light text-deep-brown/50 mt-1">Keto friendly</span>
+              </div>
+              <div className="flex flex-col items-center text-center md:border-l border-saddle-brown/10">
+                <span className="text-5xl font-serif text-saddle-brown mb-2">0<span className="text-2xl">g</span></span>
+                <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Grasas</span>
+                <span className="text-sm font-light text-deep-brown/50 mt-1">Desgrasado en frío</span>
+              </div>
+            </div>
+            <div className="mt-10 flex justify-center items-center gap-3 text-sm text-deep-brown/60 italic font-light text-center">
+              <div className="w-1.5 h-1.5 rounded-full bg-saddle-brown/40 hidden md:block" />
+              Alto contenido natural de electrolitos: Sodio, Potasio y Magnesio.
             </div>
           </div>
         </div>
