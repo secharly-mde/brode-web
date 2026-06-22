@@ -15,7 +15,7 @@ export default function ShopPage() {
 
 
   return (
-    <div className="bg-cream selection:bg-warm-tan selection:text-deep-brown min-h-screen pt-32 pb-24">
+    <div className="bg-cream selection:bg-brand-gold selection:text-deep-brown min-h-screen pt-32 pb-24">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Header */}
@@ -44,14 +44,14 @@ export default function ShopPage() {
             <h3 className="text-3xl font-serif text-deep-brown mb-2">
               Caldo de Res
             </h3>
-            <p className="text-sm uppercase tracking-widest text-saddle-brown font-bold mb-6">
+            <p className="text-sm uppercase tracking-widest text-brand-gold font-bold mb-6">
               16h Cocción · Pastura
             </p>
             <a
               href="https://wa.link/0b7wwd"
               target="_blank"
               rel="noopener noreferrer"
-              className="border-b border-deep-brown pb-1 text-sm font-bold uppercase tracking-widest hover:text-saddle-brown hover:border-saddle-brown transition-colors"
+              className="border-b border-deep-brown pb-1 text-sm font-bold uppercase tracking-widest hover:text-brand-gold hover:border-brand-gold transition-colors"
             >
               Agregar al pedido
             </a>
@@ -71,14 +71,14 @@ export default function ShopPage() {
             <h3 className="text-3xl font-serif text-deep-brown mb-2">
               Caldo de Pollo
             </h3>
-            <p className="text-sm uppercase tracking-widest text-saddle-brown font-bold mb-6">
+            <p className="text-sm uppercase tracking-widest text-brand-gold font-bold mb-6">
               16h Cocción · Campo
             </p>
             <a
               href="https://wa.link/0b7wwd"
               target="_blank"
               rel="noopener noreferrer"
-              className="border-b border-deep-brown pb-1 text-sm font-bold uppercase tracking-widest hover:text-saddle-brown hover:border-saddle-brown transition-colors"
+              className="border-b border-deep-brown pb-1 text-sm font-bold uppercase tracking-widest hover:text-brand-gold hover:border-brand-gold transition-colors"
             >
               Agregar al pedido
             </a>

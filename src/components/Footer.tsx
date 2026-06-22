@@ -13,14 +13,14 @@ export default function Footer() {
             >
               BRODE<sup className="text-xs font-normal align-super">®</sup>
             </Link>
-            <p className="mt-4 text-sm text-warm-tan leading-relaxed max-w-xs">
+            <p className="mt-4 text-sm text-brand-gold leading-relaxed max-w-xs">
               El ritual diario de nutrición profunda.
             </p>
           </div>
 
           {/* Links Column */}
           <div>
-            <h4 className="text-xs font-sans font-semibold uppercase tracking-widest text-warm-tan mb-6">
+            <h4 className="text-xs font-sans font-semibold uppercase tracking-widest text-brand-gold mb-6">
               Navegación
             </h4>
             <ul className="space-y-3">
@@ -44,7 +44,7 @@ export default function Footer() {
 
           {/* Contact Column */}
           <div>
-            <h4 className="text-xs font-sans font-semibold uppercase tracking-widest text-warm-tan mb-6">
+            <h4 className="text-xs font-sans font-semibold uppercase tracking-widest text-brand-gold mb-6">
               Contacto
             </h4>
             <ul className="space-y-3 text-sm text-off-white text-opacity-70">

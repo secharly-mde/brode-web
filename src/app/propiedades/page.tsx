@@ -64,15 +64,15 @@ const icons: Record<string, JSX.Element> = {
 
 export default function PropiedadesPage() {
   return (
-    <div className="bg-cream selection:bg-warm-tan selection:text-deep-brown">
+    <div className="bg-cream selection:bg-brand-gold selection:text-deep-brown">
       {/* ─── Hero Section ─── */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-32 px-6 bg-deep-brown overflow-hidden">
         {/* Subtle texture overlay */}
-        <div className="absolute inset-0 opacity-20 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-warm-tan via-transparent to-transparent pointer-events-none" />
+        <div className="absolute inset-0 opacity-20 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-gold via-transparent to-transparent pointer-events-none" />
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-in">
-              <span className="text-warm-tan text-sm uppercase tracking-widest font-bold mb-6 block">
+              <span className="text-brand-gold text-sm uppercase tracking-widest font-bold mb-6 block">
                 Investigación y Evidencia
               </span>
               <h1 className="text-5xl md:text-display-2 font-serif text-cream leading-tight mb-8">
@@ -113,7 +113,7 @@ export default function PropiedadesPage() {
                 className="group block bg-cream rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2 p-10 relative"
               >
                 {/* Icon */}
-                <div className="text-saddle-brown mb-6 opacity-70 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="text-brand-gold mb-6 opacity-70 group-hover:opacity-100 transition-opacity duration-300">
                   {icons[prop.slug] || (
                     <svg viewBox="0 0 64 64" fill="none" className="w-12 h-12">
                       <circle cx="32" cy="32" r="20" stroke="currentColor" strokeWidth="2.5" />
@@ -122,17 +122,17 @@ export default function PropiedadesPage() {
                 </div>
 
                 {/* Number */}
-                <span className="absolute top-8 right-8 text-saddle-brown font-serif text-5xl font-light opacity-10 group-hover:opacity-20 transition-opacity">
+                <span className="absolute top-8 right-8 text-brand-gold font-serif text-5xl font-light opacity-10 group-hover:opacity-20 transition-opacity">
                   0{index + 1}
                 </span>
 
-                <h3 className="text-2xl font-serif text-deep-brown mb-4 group-hover:text-saddle-brown transition-colors leading-tight">
+                <h3 className="text-2xl font-serif text-deep-brown mb-4 group-hover:text-brand-gold transition-colors leading-tight">
                   {prop.title}
                 </h3>
                 <p className="text-deep-brown/70 leading-relaxed font-light line-clamp-3 text-sm">
                   {prop.description}
                 </p>
-                <div className="mt-8 flex items-center text-saddle-brown text-xs font-bold uppercase tracking-widest group-hover:translate-x-2 transition-transform duration-300">
+                <div className="mt-8 flex items-center text-brand-gold text-xs font-bold uppercase tracking-widest group-hover:translate-x-2 transition-transform duration-300">
                   Leer más <span className="ml-2">→</span>
                 </div>
               </Link>
@@ -143,9 +143,9 @@ export default function PropiedadesPage() {
 
       {/* ─── CTA Section (Dark) ─── */}
       <section className="relative py-40 px-6 overflow-hidden bg-deep-brown">
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-warm-tan via-transparent to-transparent pointer-events-none" />
+        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-brand-gold via-transparent to-transparent pointer-events-none" />
         <div className="relative z-10 max-w-3xl mx-auto text-center">
-          <span className="text-warm-tan text-sm uppercase tracking-widest font-bold mb-6 block">
+          <span className="text-brand-gold text-sm uppercase tracking-widest font-bold mb-6 block">
             Nutrición Ancestral
           </span>
           <h2 className="text-4xl md:text-display-2 font-serif text-cream mb-8 leading-tight">

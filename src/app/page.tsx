@@ -6,7 +6,7 @@ import homeData from "../../content/home/index.json";
 
 export default function Home() {
   return (
-    <div className="bg-cream selection:bg-warm-tan selection:text-deep-brown">
+    <div className="bg-cream selection:bg-brand-gold selection:text-deep-brown">
       {/* ─── Hero Section (Full Bleed) ─── */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image - Full height and width, dark overlay for contrast */}
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
         <div className="relative z-20 text-center max-w-5xl mx-auto px-6 mt-20 animate-fade-in">
-          <span className="text-warm-tan text-sm uppercase tracking-[0.3em] font-medium mb-6 block drop-shadow-md">Nutrición Funcional</span>
+          <span className="text-brand-gold text-sm uppercase tracking-[0.3em] font-medium mb-6 block drop-shadow-md">Nutrición Funcional</span>
           <h1 className="text-5xl md:text-display-1 font-serif text-cream leading-tight drop-shadow-xl font-medium tracking-tight">
             {homeData.hero.headline}
           </h1>
@@ -33,7 +33,7 @@ export default function Home() {
             <p className="text-lg md:text-xl text-cream font-light max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
               Caldo de huesos premium de cocción lenta. Máxima concentración de colágeno, gelatina y aminoácidos esenciales para reparación celular, salud articular y soporte digestivo.
             </p>
-            <p className="mt-4 text-warm-tan font-serif text-2xl drop-shadow-md">
+            <p className="mt-4 text-brand-gold font-serif text-2xl drop-shadow-md">
               Sin atajos. Sin aditivos.
             </p>
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
             </a>
             <Link
               href="#ciencia"
-              className="px-10 py-4 bg-transparent border border-warm-tan text-warm-tan text-sm font-bold tracking-[0.2em] uppercase hover:bg-warm-tan hover:text-deep-brown transition-all duration-300 rounded-none shadow-lg"
+              className="px-10 py-4 bg-transparent border border-brand-gold text-brand-gold text-sm font-bold tracking-[0.2em] uppercase hover:bg-brand-gold hover:text-deep-brown transition-all duration-300 rounded-none shadow-lg"
             >
               Descubrir la Ciencia
             </Link>
@@ -61,7 +61,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center mb-24">
             <div className="lg:col-span-5">
-              <span className="text-saddle-brown text-sm uppercase tracking-widest font-bold mb-4 block">Fisiología Aplicada</span>
+              <span className="text-brand-gold text-sm uppercase tracking-widest font-bold mb-4 block">Fisiología Aplicada</span>
               <h2 className="text-4xl md:text-h2 font-serif leading-tight">
                 {homeData.technical.heading}
               </h2>
@@ -70,7 +70,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-deep-brown/80 font-serif font-light leading-relaxed">
                 {homeData.technical.body1}
               </p>
-              <div className="w-24 h-px bg-saddle-brown/30" />
+              <div className="w-24 h-px bg-brand-gold/30" />
               <p className="text-lg text-deep-brown/70 leading-relaxed">
                 {homeData.technical.body2}
               </p>
@@ -97,7 +97,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
             <div>
-              <span className="text-saddle-brown text-sm uppercase tracking-widest font-bold mb-4 block">Nuestra Colección</span>
+              <span className="text-brand-gold text-sm uppercase tracking-widest font-bold mb-4 block">Nuestra Colección</span>
               <h2 className="text-4xl md:text-h2 font-serif text-deep-brown">
                 {homeData.productos.heading}
               </h2>
@@ -106,7 +106,7 @@ export default function Home() {
               href="https://wa.link/0b7wwd"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-saddle-brown text-sm font-bold tracking-widest uppercase hover:text-deep-brown transition-colors group flex items-center gap-2"
+              className="text-brand-gold text-sm font-bold tracking-widest uppercase hover:text-deep-brown transition-colors group flex items-center gap-2"
             >
               Ver tienda completa 
               <span className="group-hover:translate-x-2 transition-transform">→</span>
@@ -132,7 +132,7 @@ export default function Home() {
                     <h3 className="text-2xl font-serif text-deep-brown mb-3">
                       {product.name}
                     </h3>
-                    <p className="text-sm font-bold tracking-widest text-saddle-brown uppercase mb-4">
+                    <p className="text-sm font-bold tracking-widest text-brand-gold uppercase mb-4">
                       {product.details}
                     </p>
                     <p className="text-deep-brown/70 leading-relaxed max-w-md">
@@ -150,7 +150,7 @@ export default function Home() {
       <section className="section-padding bg-deep-brown text-cream">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <span className="text-warm-tan text-sm uppercase tracking-widest font-bold mb-4 block">Beneficios Clínicos</span>
+            <span className="text-brand-gold text-sm uppercase tracking-widest font-bold mb-4 block">Beneficios Clínicos</span>
             <h2 className="text-4xl md:text-h2 font-serif">
               {homeData.porQue.heading}
             </h2>
@@ -159,11 +159,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
             {homeData.porQue.features.map((feature, index) => (
               <div key={index} className="relative">
-                <div className="text-6xl font-serif text-warm-tan/10 absolute -top-10 -left-4 z-0">
+                <div className="text-6xl font-serif text-brand-gold/10 absolute -top-10 -left-4 z-0">
                   0{index + 1}
                 </div>
                 <div className="relative z-10">
-                  <h3 className="text-xl font-serif text-warm-tan mb-4">
+                  <h3 className="text-xl font-serif text-brand-gold mb-4">
                     {feature.title}
                   </h3>
                   <p className="text-cream/70 leading-relaxed">
@@ -211,7 +211,7 @@ export default function Home() {
               <div className="space-y-6">
                 <a
                   href="mailto:brode@brode.uy"
-                  className="block text-xl font-serif text-deep-brown hover:text-saddle-brown transition-colors"
+                  className="block text-xl font-serif text-deep-brown hover:text-brand-gold transition-colors"
                 >
                   brode@brode.uy
                 </a>
@@ -219,7 +219,7 @@ export default function Home() {
                   href="https://wa.link/0b7wwd"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-xl font-serif text-deep-brown hover:text-saddle-brown transition-colors"
+                  className="block text-xl font-serif text-deep-brown hover:text-brand-gold transition-colors"
                 >
                   +598 92 60 88 88
                 </a>

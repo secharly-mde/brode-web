@@ -11,8 +11,7 @@ const config: Config = {
       colors: {
         cream: "#F8F5F0", // Lighter, cleaner cream
         "deep-brown": "#1A1412", // Almost black for stark contrast (like Babs)
-        "saddle-brown": "#8C4A23", // Rich terracotta/brown
-        "warm-tan": "#D9B89A", // Soft accent
+        "brand-gold": "#A5834F", // Official BRODE Gold for all accents and logos
         "off-white": "#FFFFFF",
         "stone-grey": "#EFEBE4", // For subtle background sections
       },

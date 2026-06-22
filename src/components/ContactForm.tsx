@@ -58,7 +58,7 @@ export default function ContactForm() {
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 text-sm text-saddle-brown underline underline-offset-4 hover:text-deep-brown transition-colors"
+          className="mt-6 text-sm text-brand-gold underline underline-offset-4 hover:text-deep-brown transition-colors"
         >
           Enviar otro mensaje
         </button>
@@ -84,7 +84,7 @@ export default function ContactForm() {
           id="contact-name"
           name="name"
           required
-          className="w-full px-4 py-3 bg-off-white border border-warm-tan border-opacity-40 rounded-sm text-deep-brown placeholder-deep-brown placeholder-opacity-30 focus:outline-none focus:border-saddle-brown transition-colors duration-300"
+          className="w-full px-4 py-3 bg-off-white border border-brand-gold border-opacity-40 rounded-sm text-deep-brown placeholder-deep-brown placeholder-opacity-30 focus:outline-none focus:border-brand-gold transition-colors duration-300"
           placeholder="Tu nombre"
         />
       </div>
@@ -100,7 +100,7 @@ export default function ContactForm() {
           id="contact-email"
           name="email"
           required
-          className="w-full px-4 py-3 bg-off-white border border-warm-tan border-opacity-40 rounded-sm text-deep-brown placeholder-deep-brown placeholder-opacity-30 focus:outline-none focus:border-saddle-brown transition-colors duration-300"
+          className="w-full px-4 py-3 bg-off-white border border-brand-gold border-opacity-40 rounded-sm text-deep-brown placeholder-deep-brown placeholder-opacity-30 focus:outline-none focus:border-brand-gold transition-colors duration-300"
           placeholder="tu@email.com"
         />
       </div>
@@ -116,7 +116,7 @@ export default function ContactForm() {
           name="message"
           required
           rows={5}
-          className="w-full px-4 py-3 bg-off-white border border-warm-tan border-opacity-40 rounded-sm text-deep-brown placeholder-deep-brown placeholder-opacity-30 focus:outline-none focus:border-saddle-brown transition-colors duration-300 resize-none"
+          className="w-full px-4 py-3 bg-off-white border border-brand-gold border-opacity-40 rounded-sm text-deep-brown placeholder-deep-brown placeholder-opacity-30 focus:outline-none focus:border-brand-gold transition-colors duration-300 resize-none"
           placeholder="¿En qué podemos ayudarte?"
         />
       </div>

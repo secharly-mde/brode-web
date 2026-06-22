@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function IngredientesPage() {
   return (
-    <div className="bg-cream selection:bg-warm-tan selection:text-deep-brown">
+    <div className="bg-cream selection:bg-brand-gold selection:text-deep-brown">
       {/* Hero */}
       <section className="pt-32 pb-20 md:pt-40 md:pb-24 px-6 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
@@ -61,10 +61,10 @@ export default function IngredientesPage() {
             {data.timeSection && (
               <div className="mt-16 bg-deep-brown text-cream rounded-2xl p-10 md:p-16 text-center shadow-xl">
                 <div className="max-w-3xl mx-auto">
-                  <span className="text-warm-tan text-sm font-bold tracking-widest uppercase mb-4 block">
+                  <span className="text-brand-gold text-sm font-bold tracking-widest uppercase mb-4 block">
                     Concepto Fundamental
                   </span>
-                  <h3 className="text-3xl md:text-4xl font-serif text-warm-tan mb-6">
+                  <h3 className="text-3xl md:text-4xl font-serif text-brand-gold mb-6">
                     {data.timeSection.title}
                   </h3>
                   <p className="text-lg md:text-xl text-cream/90 leading-relaxed font-light">

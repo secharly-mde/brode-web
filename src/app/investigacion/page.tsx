@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 
 export default function InvestigacionPage() {
   return (
-    <div className="bg-cream selection:bg-warm-tan selection:text-deep-brown min-h-screen">
+    <div className="bg-cream selection:bg-brand-gold selection:text-deep-brown min-h-screen">
       <div className="max-w-4xl mx-auto px-6 pt-32 pb-24">
-        <Link href="/propiedades" className="text-saddle-brown text-sm uppercase tracking-widest font-bold mb-12 inline-flex items-center hover:-translate-x-2 transition-transform">
+        <Link href="/propiedades" className="text-brand-gold text-sm uppercase tracking-widest font-bold mb-12 inline-flex items-center hover:-translate-x-2 transition-transform">
           <span className="mr-2">←</span> Volver a Propiedades
         </Link>
         
@@ -57,19 +57,19 @@ export default function InvestigacionPage() {
 
           <h2>Referencias Destacadas</h2>
           <ul className="space-y-6 text-base">
-            <li className="pl-6 border-l border-saddle-brown/30 italic">
+            <li className="pl-6 border-l border-brand-gold/30 italic">
               <strong>Clark, K. L., et al. (2008).</strong> &quot;24-Week study on the use of collagen hydrolysate as a dietary supplement in athletes with activity-related joint pain.&quot; Current Medical Research and Opinion.
             </li>
-            <li className="pl-6 border-l border-saddle-brown/30 italic">
+            <li className="pl-6 border-l border-brand-gold/30 italic">
               <strong>Bannai, M., & Kawai, N. (2012).</strong> &quot;New therapeutic strategy for amino acid medicine: glycine improves the quality of sleep.&quot; Journal of Pharmacological Sciences.
             </li>
-            <li className="pl-6 border-l border-saddle-brown/30 italic">
+            <li className="pl-6 border-l border-brand-gold/30 italic">
               <strong>Rao, R., & Samak, G. (2012).</strong> &quot;Role of Glutamine in Protection of Intestinal Epithelial Tight Junctions.&quot; Journal of Epithelial Biology and Pharmacology.
             </li>
-            <li className="pl-6 border-l border-saddle-brown/30 italic">
+            <li className="pl-6 border-l border-brand-gold/30 italic">
               <strong>McCarty, M. F., et al. (2014).</strong> &quot;The cardiometabolic benefits of glycine: Is glycine an &apos;antidote&apos; to dietary fructose?&quot; Medical Hypotheses.
             </li>
-            <li className="pl-6 border-l border-saddle-brown/30 italic">
+            <li className="pl-6 border-l border-brand-gold/30 italic">
               <strong>Sekhar, R. V., et al. (2011).</strong> &quot;Deficient synthesis of glutathione underlies oxidative stress in aging and can be corrected by dietary supplementation with cysteine and glycine.&quot; The American Journal of Clinical Nutrition.
             </li>
           </ul>

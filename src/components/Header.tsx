@@ -36,7 +36,7 @@ export default function Header() {
         {/* Logo */}
         <Link
           href="/"
-          className="font-sans text-3xl md:text-4xl font-black tracking-tight text-[#B8935A] hover:opacity-80 flex items-start"
+          className="font-sans text-3xl md:text-4xl font-black tracking-tight text-brand-gold hover:opacity-80 flex items-start"
         >
           BRODE<span className="text-sm font-bold ml-0.5 mt-1">®</span>
         </Link>
@@ -49,8 +49,8 @@ export default function Header() {
                 href={link.href}
                 className={`text-sm font-medium tracking-wide uppercase transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-px after:transition-all after:duration-300 hover:after:w-full ${
                   (isScrolled || !isHomePage)
-                    ? "text-deep-brown hover:text-saddle-brown after:bg-saddle-brown" 
-                    : "text-cream hover:text-warm-tan after:bg-warm-tan"
+                    ? "text-deep-brown hover:text-brand-gold after:bg-brand-gold" 
+                    : "text-cream hover:text-brand-gold after:bg-brand-gold"
                 }`}
               >
                 {link.label}
@@ -87,7 +87,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-cream border-b border-warm-tan border-opacity-30 transition-all duration-300 overflow-hidden ${
+        className={`md:hidden absolute top-full left-0 right-0 bg-cream border-b border-brand-gold border-opacity-30 transition-all duration-300 overflow-hidden ${
           isMenuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
@@ -96,7 +96,7 @@ export default function Header() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-deep-brown text-base font-medium tracking-wide uppercase hover:text-saddle-brown transition-colors duration-300"
+                className="text-deep-brown text-base font-medium tracking-wide uppercase hover:text-brand-gold transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
