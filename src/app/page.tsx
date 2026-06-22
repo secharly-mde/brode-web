@@ -73,6 +73,34 @@ export default function Home() {
               <p className="text-lg text-deep-brown/70 leading-relaxed">
                 {homeData.technical.body2}
               </p>
+              
+              {/* Nutritional Profile Grid */}
+              <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 border-t border-saddle-brown/10 pt-10">
+                <div className="flex flex-col">
+                  <span className="text-4xl font-serif text-saddle-brown mb-1">45</span>
+                  <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Calorías</span>
+                  <span className="text-sm font-light text-deep-brown/50 mt-1">Súper bajo</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-4xl font-serif text-saddle-brown mb-1">10<span className="text-2xl">g</span></span>
+                  <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Proteína</span>
+                  <span className="text-sm font-light text-deep-brown/50 mt-1">Colágeno y aminos</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-4xl font-serif text-saddle-brown mb-1">0<span className="text-2xl">g</span></span>
+                  <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Carbohidratos</span>
+                  <span className="text-sm font-light text-deep-brown/50 mt-1">Keto friendly</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-4xl font-serif text-saddle-brown mb-1">0<span className="text-2xl">g</span></span>
+                  <span className="text-xs uppercase tracking-widest font-bold text-deep-brown/70">Grasas</span>
+                  <span className="text-sm font-light text-deep-brown/50 mt-1">Desgrasado en frío</span>
+                </div>
+              </div>
+              <div className="mt-4 flex items-center gap-3 text-sm text-deep-brown/60 italic font-light">
+                <div className="w-1.5 h-1.5 rounded-full bg-saddle-brown/40" />
+                Valores promedio por porción (240ml). Rico en Sodio, Potasio y Magnesio naturales.
+              </div>
             </div>
           </div>
         </div>
