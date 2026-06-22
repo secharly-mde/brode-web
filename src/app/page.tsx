@@ -25,7 +25,6 @@ export default function Home() {
         </div>
 
         <div className="relative z-20 text-center max-w-5xl mx-auto px-6 mt-20 animate-fade-in">
-          <span className="text-brand-gold text-sm uppercase tracking-[0.3em] font-medium mb-6 block drop-shadow-md">Nutrición Funcional</span>
           <h1 className="text-5xl md:text-display-1 font-serif text-cream leading-tight drop-shadow-xl font-medium tracking-tight">
             {homeData.hero.headline}
           </h1>
@@ -115,7 +114,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
             {homeData.productos.items.map((product, index) => (
-              <div key={index} className="group cursor-pointer">
+              <Link href="/shop" key={index} className="group cursor-pointer block">
                 <div className="relative h-[600px] w-full mb-8 overflow-hidden bg-stone-grey border border-deep-brown/5 rounded-3xl">
                   <Image
                     src={index === 0 ? "/brode-res.png" : "/brode-pollo.png"}
@@ -129,7 +128,7 @@ export default function Home() {
                 </div>
                 <div className="flex justify-between items-start gap-6">
                   <div>
-                    <h3 className="text-2xl font-serif text-deep-brown mb-3">
+                    <h3 className="text-2xl font-serif text-deep-brown mb-3 group-hover:text-brand-gold transition-colors">
                       {product.name}
                     </h3>
                     <p className="text-sm font-bold tracking-widest text-brand-gold uppercase mb-4">
@@ -140,7 +139,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
